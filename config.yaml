@@ -1,0 +1,7 @@
+---
+lang: ru
+UID: 3
+say_server: http://127.0.0.1:8000
+gateway_protocol: http://127.0.0.1:8000/rts
+auth_protocol: http://127.0.0.1:8000/auth
+poll rate: 60.0 #seconds
