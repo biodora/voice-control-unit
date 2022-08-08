@@ -1,0 +1,177 @@
+---
+
+name:
+    - red queen
+    - read queen
+ready message: voice assistant is started
+
+commands:
+    sign in:
+        - entrance
+        - go in
+        - login
+        - log in
+        - enter
+        - sign in
+
+    sign out:
+        - exit
+        - go away
+        - go out
+        - quit
+        - sign out
+        - log out
+        - logout
+    help:
+        - help
+
+    lang:
+        - language
+        - lang
+    
+    code:
+        - code
+        - pass
+        - password
+
+    repeat:
+        - repeat
+        - again
+
+    temperature:
+        - temperature
+        - warm
+        - warmer
+        - heater
+        - boil       
+    mixer:
+        - mix
+        - mixer
+        - rev
+        - turnover
+            
+    pH:
+        - acidity
+
+    calibration:
+        - calibration
+        - configure
+        - calibrate
+        - tune
+        - adjust
+        - regulate
+        - setting
+
+repeat message: repeat please
+
+set message: set
+turn on message: switch on
+turn off message: switch off
+value message: measure
+sign in message: sign in 
+Signed in: login successful
+Failed to sign in: login failed 
+Failed to sing out: logout failed
+min message: low
+max message: high
+warning message: warning
+emergency message: alarm
+setting message: setpoint
+please generate code message: please generate code
+exit message: exit successful
+mixer speed message: rate per minute
+and message: and
+temperature message: temperature
+mixer message: mixer
+pH message: pH
+dead zone message: deadband
+connection error message: command error
+ph acidity message: pH
+
+temperature breakage occurred: temperature sensor breakdown
+mixer device error: mixer failed
+An emergency stop of the mixer: emergency stop of mixer
+ph breakage occurred: pH sensor breakdown
+ph max_ws: pH sensor high warning threshold reached
+ph max_es: pH sensor high alarm threshold reached
+ph min_ws: pH sensor low warning threshold reached
+ph min_es: pH sensor low alarm threshold reached
+temperature max_ws: temperature sensor high warning threshold reached
+temperature max_es: temperature sensor high alarm threshold reached
+temperature min_ws: temperature sensor low warning threshold reached
+temperature min_es: temperature sensor low alarm threshold reached
+
+set words:
+    - set
+    - shift
+    - heat up
+
+turn on words:
+    - turn on
+    - activate
+    - switch on
+    - start
+
+turn off words:
+    - turn off
+    - deactivate
+    - switch off
+    - stop
+
+value words:
+    - get
+    - give
+    - level
+    - substance
+    - call 
+    - name
+    - say
+    - when
+    - what
+    - value
+    - work
+    - how many
+    - tell me
+
+dead zone:
+    - dead
+    - band
+    - deadband
+
+min words:
+    - minimum
+    - min
+    - low
+
+max words:
+    - maximum
+    - max
+    - high
+
+warning words:
+    - warning
+
+emergency words:
+    - emergency
+    - alarm
+
+confirmation message: Is it right?
+answ:
+    agree:
+        - yes
+    revocation:
+        - no
+        - not
+        - cancel
+
+agree message: Ok, completed
+revocation message: Cancelation
+
+help: >
+    Чтобы войти в систему, "нужно сказать войти, после чего ввести код на экран биореактора, который я озвучу.
+    Чтобы изменить температуру, нужно сказать Установить температуру и сказать нужное значение.
+    Чтобы выйти из системы, нужно сказать выход.
+
+langs:
+    ru: russian
+    en: english
